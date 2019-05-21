@@ -1,0 +1,67 @@
+body{
+	background-image:url("..\\backgrounds\\laptopBG.jpg");
+}
+
+.container{
+	background: rgba(0,0,0,0);
+}
+
+.search-bar{
+	margin:10px;
+	text-align:left;
+}
+
+.search-bar input{
+	width:100%;
+}
+
+.video-item img{
+	max-width:65px;
+}
+
+.media-body {
+	text-align:left;
+	font-size:0.8em;
+	font-family: Verdana;
+	padding: 2px;
+}
+
+.video-detail details{
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+	border:1px solid #ddd;
+	border-radius:4px;
+}
+
+.video-title-container {
+	background-color: #202020;
+	text-decoration-color: silver;
+	text-align: center;	
+	color: white;
+	margin-top:10px;
+	padding:10px;
+	font-family: bold;
+	font-size: 1.2em;
+}
+.video-description-container {
+	text-align: left;	
+	color: white;
+	margin-top:5px;
+	padding:10px;
+	background-color: #585858;
+	border:1px solid grey;
+	font-family: "Courier New";
+	font-size: 0.9em;
+}
+
+.list-group-item {
+	cursor:pointer;
+	margin: 2px;
+	opacity: 0.7;
+}
+
+.list-group-item:hover{
+	background-color:#eee;
+	opacity:0.9;
+}
