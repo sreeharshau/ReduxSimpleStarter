@@ -25,6 +25,7 @@ class App extends Component {
 
 	VideoSearch(searchTerm){
 		YTSearch({key: APIKey, term: searchTerm}, (data) => {
+			console.log(data);
 			this.setState({ currentVideos: data, selectedVideo: data[0] });
 		});
 	}

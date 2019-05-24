@@ -2,6 +2,21 @@ body{
 	background-image:url("..\\backgrounds\\laptopBG.jpg");
 }
 
+.navbar-brand{
+	color:white;
+}
+
+.navbar-brand:visited{
+	color:white;
+}
+.navbar-dark{
+	background-color: black;
+	height: 100%
+}
+.nav-item{
+	color:white;
+}
+
 .container{
 	background: rgba(0,0,0,0);
 }
@@ -49,7 +64,8 @@ body{
 	color: white;
 	margin-top:5px;
 	padding:10px;
-	background-color: #585858;
+	background-color: #6F6E6E;
+	opacity:0.8;
 	border:1px solid grey;
 	font-family: "Courier New";
 	font-size: 0.9em;
@@ -64,4 +80,8 @@ body{
 .list-group-item:hover{
 	background-color:#eee;
 	opacity:0.9;
+}
+
+.video-list-item-li{
+	background-color: : black;
 }
