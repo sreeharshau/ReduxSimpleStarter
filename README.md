@@ -2,7 +2,7 @@
 
 Template forked from StephenGrider/ReduxSimpleStarter
 
-Modifying this to create a simple video player modeled off youtube - First React and Redux project
+Modifying this to create a simple video player modeled off youtube - First React and Redux project. Please visit the wiki for this repository to see a showcase of the application.
 
 Usage: 
   - npm install
@@ -11,6 +11,5 @@ Usage:
   - Use the search bar to dynamically retrieve results off Youtube via the Youtube API
   
  Pending Tasks:
-  - Clean up and improve styling
   - Implement local video searching capabilities
   - Add a search bar to toggle between local root directories and Youtube search
