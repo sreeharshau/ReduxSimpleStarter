@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# Video Player Modeled off Youtube - React based project
 
 Template forked from StephenGrider/ReduxSimpleStarter
 
